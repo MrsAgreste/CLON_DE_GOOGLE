@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Libreria para la fuente Roboto -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <!-- Libreria para el icono de busqueda -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <link rel="stylesheet" href="estilos.css">
+    <title>Clon de Google</title>
+</head>
+
+<body>
+    <header>
+        <a id="link-header" href="https://www.google.com/intl/es-419/gmail/about/" target="_blank">Gmail</a>
+        <a id="link-header" href="https://www.google.com.mx/imghp?hl=es-419&ogbl" target="_blank">Imagenes</a>
+        <button class="cuadrito">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <button class="btn-primary">Acceder</button>
+    </header>
+
+    <main>
+
+        <section>
+            <div id="logo"></div>
+        </section>
+
+        <section>
+            <div class="input-gruop">
+                <input type="text" id="input-search">
+                <i id="icono" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <br><br>
+
+            <a id="search" href="https://www.google.com">Buscar con Google</a>
+            <a id="lucky" href="https://www.google.com/doodles" target="_blank">Voy a tener suerte</a>
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="piepagina">
+
+            <div class="container-fluid1">
+                <p id="texto1">México</p>
+            </div>
+
+            <div class="contenedor1">
+                <a class="footer-link" href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1"
+                    target="_blank">Sobre Google</a>
+                <a class="footer-link"
+                    href="https://ads.google.com/intl/es-419_mx/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+                    target="_blank">Publicidad</a>
+                <a class="footer-link"
+                    href="https://smallbusiness.withgoogle.com/intl/es-419_mx/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=MX#!/"
+                    target="_blank">Negocios</a>
+                <a class="footer-link" href="https://www.google.com/search/howsearchworks/?fg=1" target="_blank">Cómo funciona la
+                    Búsqueda</a>
+            </div>
+            
+            <div class="contenedor2">
+                <a class="footer-link" href="https://policies.google.com/privacy?hl=es-419&fg=1" target="_blank">Privacidad</a>
+                <a class="footer-link" href="https://policies.google.com/terms?hl=es-419&fg=1" target="_blank">Condiciones</a>
+                <a class="footer-link" href="http://" target="_blank">Preferencias</a>
+
+            </div>
+           
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
+
+<!-- El sitio web a construir debe contener la etiqueta title con el nombre de "Clon de Google", además se debe hacer uso de las etiquetas semánticas <header>, <main> y <footer>. La parte principal(Logo, caja de texto y botones) debe estar dividida en dos o mas secciones, por otra parte el logo debe tener como id "logo" y los botones de búsqueda ("Buscar con google" y "Me siento con suerte") deben ser links en forma de botón, ambos botones tienen el id "search" y "lucky" respectivamente. La caja de texto debe tener su propio id "input-search". Por ultimo en le pie de la pagina deben contener los mismos links que el google original todos ellos con la clase "footer-link".
+
+Requerimientos técnicos
+Tener title con nombre 'Clon Google
+Tener un header con dos a y dos img
+Usar la etiqueta main
+Deben existir al menos dos section
+img con #logo asociado al logo de google
+Botones de búsqueda deben ser a con #search y #lucky ademas tener .btn-search
+Debe existir input de búsqueda #input-search
+Debe existir footer con links idénticos a google original
+body no tiene margenes y tiene fuente ROBOTO
+input tiene :hover
+botones tienen :hover -->
